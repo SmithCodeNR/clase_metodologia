@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{/*esto lo uso para asignarle un color a una variable para poderlas usar luego */
+    --primary-color: #064E3B;
+    --secondary-color: #D4AF37;
+    --tertiary-color:#BD322B;
+    --neutral:#FCF9F1;
+}
+body{
+    margin: 0;
+    font-family: "Inter";
+    background-color: var(--neutral);
+}
+header{
+    top:0%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    background-color: #EDE9DF;
+
+}
+.buttons-nav{
+    margin-left: auto;
+    padding: 20px 10px;
+}
+
+.buttons-nav button {
+    margin-left:10px;
+    width: auto;
+    background-color:#D4AF37;
+    color: gray;
+} 
