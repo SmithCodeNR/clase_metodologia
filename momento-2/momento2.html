@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <img src="../momento-2/img/logo_restaurante.svg" alt="logo" class="logo" width="150px">
+        <img src="./img/logo_restaurante.svg" alt="logo" class="logo" width="150px">
         <div class="buttons-nav">
-            <button><a href="#primera_tarjeta">Inicio</a></button>
-            <button><a href="#segunda_tarjeta">Nuestra<br>Esencia</a></button>
-            <button><a href="#tercera_caja">El Arte</a></button>
+            <a href="#primera_tarjeta">Inicio</a>
+            <a href="#segunda_tarjeta">NuestraEsencia</a>
+            <a href="#tercera_caja">El Arte</a>
         </div>
         
     </header>
@@ -20,8 +20,9 @@
         <section class="primera_caja" id="primera_caja">
             <h2>Sabores Que Cuentan Historias</h2>
             <p>una esencia culinaria autentica en el corazon de la ciudad, donde la tradicion se encuentra con la artesania moderna.</p>
-            <button>Reserva ahora</button>
+            <button class="reserva">Reserva ahora</button>
         </section>
+        <br><br>
         <section class="segunda_caja" id="segunda_caja">
             <h2>Nuestra Esencia</h2>
             <div class="tarjeta_lider">
@@ -41,7 +42,7 @@
                     <p>El lugar perfecto para moenteos inolvidables, Rodeado de calidez, Diseño y hospitalidad excepcional.</p>
                 </div>
             </div>
-        </section>
+        </section><br><br>
         <section class="tercera_caja" id="tercera_caja">
             <h2>El Arte De La Mesa</h2>
             <p>Nuestra cocina es un dialogo entre el pasado y el presente. Cada plato es una obra de arte diseñada para deleitar no solo el paladar, sino todos los sentidos.</p>
@@ -50,14 +51,28 @@
                 <li><STRong>CAVA SELECCIONADA</STRong></li>
                 <li><strong>EXPERIENCIA PRIVADA</strong></li>
             </ul>
-            <div class="imagen1">
-                <img src="./img/img_restaurante.png" alt="">
-                <img src="./img/img_restaurante2.png" alt="">
+            <div class="mig">
+                <div class="imagen1">
+                    <img src="./img/img_restaurante.png" alt="" width="400px">
+                </div>
+                <div class="imagen2">
+                <img src="./img/img_restaurante2.png" alt="" width="400px">
+                </div>
             </div>
+        </section><br><br>
+        <section class="formulario">
+            <label for="monbreUsuario">nombres usuario:</label>
+            <input type="text" id="nombreUsuario" name="nombre" placeholder="ej: juan perez">
+            <br>
+            <label for="correoUsuario">correo electronico:</label>
+            <input type="emial" id="correoUsuario" name="email" placeholder="correo@ejemplo.com" required>
+            <br>
+            <label for="nacimiento">fecha de la reservacion:</label>
+        <input type="date" name="fecha_nac" id="nacimiento">
         </section>
     </main>
     <footer>
-        <p>LaMesa@gmail.com</p>
+    <p>LaMesa@gmail.com</p>
     </footer>
 </body>
 </html>

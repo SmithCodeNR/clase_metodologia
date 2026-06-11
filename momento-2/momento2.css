@@ -8,7 +8,7 @@
 body{
     margin: 0;
     font-family: "Inter";
-    background-color: var(--neutral);
+    background-color: rgb(255, 252, 217);
 }
 header{
     top:0%;
@@ -16,7 +16,7 @@ header{
     flex-direction: row;
     width: 100%;
     position: fixed;
-    background-color: #EDE9DF;
+    background-color: #ffda61;
 
 }
 .buttons-nav{
@@ -24,9 +24,98 @@ header{
     padding: 20px 10px;
 }
 
-.buttons-nav button {
-    margin-left:10px;
-    width: auto;
-    background-color:#D4AF37;
-    color: gray;
+.buttons-nav a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 208, 0);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    
 } 
+a:hover{
+    background-color: #D4AF37;
+    cursor: pointer;
+}
+main{
+    padding: 30px 100px;
+    text-align: center;
+}
+.primera_caja{
+    margin-top: 100px;
+    padding: 30px;
+    border: 2px solid black;
+
+}
+.primera_caja button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 208, 0);
+    color:black;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.reserva:hover{
+    background-color: #D4AF37;
+    cursor: pointer;
+}
+
+.tarjeta_lider{
+    display: flex;
+    gap: 20px;
+    
+}
+.primera_tarjeta{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ffda61;
+}
+.segunda_tarjeta{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ffda61;
+}
+.tercera_tarjeta{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #ffda61;
+}
+.tarjeta_lider div img{
+    margin-top: 30px;
+}
+.primera_tarjeta:hover{
+    background-color: #ffda61d2;
+}
+.segunda_tarjeta:hover{
+    background-color: #ffda61d2;
+}
+.tercera_tarjeta:hover{
+    background-color: #ffda61d2;
+}
+.tercera_caja{
+    border: 2px solid black;
+}
+.formulario{
+    background-color: #D4AF37;
+}
+.enviar{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 208, 0);
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 400px;
+}
+footer{
+    text-align: center;
+}
+
+
+
+
+    
+
